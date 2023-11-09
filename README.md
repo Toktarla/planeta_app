@@ -3,6 +3,7 @@
 Welcome to the world of celestial discovery with our Flutter Planeta App! This dynamic mobile application boasts an immersive and adaptable user interface, featuring a captivating themed design, and complete multilingual support. Users can embark on an educational journey through interactive quizzes, delving into the captivating universe of our solar system's planets. Explore, learn, and challenge your cosmic knowledge with ease!
 
 ## Clean Architecture + TDD
+APIs that i used: APOD API, People in Space API, Unsplash API
 
 ## Dependencies
 
