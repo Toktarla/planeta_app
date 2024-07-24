@@ -4,6 +4,23 @@ Welcome to the world of celestial discovery with our Flutter Planeta App! This d
 
 ## Clean Architecture + TDD
 
+This app is built using Clean Architecture principles, ensuring a scalable and maintainable codebase. It also adheres to Test-Driven Development (TDD) practices to ensure high code quality and reliability.
+
+### Clean Architecture Structure
+
+The app follows a layered architecture pattern, which includes:
+
+- **Presentation Layer**: Contains UI components such as screens and widgets. It uses `flutter_bloc` for state management and `flutter_hooks` for managing state in a more reactive way.
+  
+- **Domain Layer**: Includes business logic and use cases. It defines the core functionalities and interactions of the app.
+  
+- **Data Layer**: Manages data sources and repositories. It includes data fetching and caching using APIs and local databases.
+  
+- **Data Sources**:
+  - **Remote Data Source**: Handles API interactions with external services.
+  - **Local Data Source**: Uses the `floor` database for local data storage.
+  
+- **Repositories**: Abstracts the data sources and provides a clean API for the domain layer.
 
 ## Dependencies
 APIs that i used: APOD API, People in Space API, Unsplash API
